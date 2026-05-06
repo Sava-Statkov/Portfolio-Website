@@ -82,7 +82,7 @@ export const hobbies: Hobby[] = [
     icon: "sports",
     title: "Sports",
     description:
-      "I enjoy staying active through hockey, swimming, and gym training. Sports have helped me develop discipline over time."
+      "I enjoy staying physically active through ice skating, swimming, and strength training. Sports have been an important way for me to maintain and balance long hours spent working on technical projects."
   },
   {
     icon: "interests",
