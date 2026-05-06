@@ -140,7 +140,7 @@ export type Publication = {
 
 export const publications: Publication[] = [
   {
-    status: "Accepted",
+    status: "PENDING",
     venue: "IEEE CONFERENCE",
     title: "International Conference on Automatics, Robotics and AI (ICARAI)",
     authors: "Sava Statkov, Simeon Stamboliyski, Georgi Hristov",
