@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 255 255 255;
+    --foreground: 13 23 41;
+    --card: 255 255 255;
+    --card-foreground: 13 23 41;
+    --border: 203 213 225;
+    --muted: 241 245 249;
+    --muted-foreground: 94 109 132;
+    --accent: 37 99 235;
+    --accent-secondary: 99 102 241;
+  }
+
+  .dark {
+    --background: 5 10 20;
+    --foreground: 226 232 240;
+    --card: 9 15 28;
+    --card-foreground: 226 232 240;
+    --border: 30 41 59;
+    --muted: 15 23 42;
+    --muted-foreground: 148 163 184;
+    --accent: 96 165 250;
+    --accent-secondary: 129 140 248;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply min-h-screen bg-background text-foreground;
+  }
+
+  ::selection {
+    background: rgba(59, 130, 246, 0.2);
+    color: inherit;
+  }
+
+  a,
+  button {
+    @apply outline-none focus-visible:ring-2 focus-visible:ring-sky-400/60 focus-visible:ring-offset-2 focus-visible:ring-offset-background;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .surface-card {
+    @apply border border-border/70 bg-white/80 shadow-soft dark:bg-slate-950/65;
+  }
+
+  .subtle-divider {
+    background: linear-gradient(90deg, transparent, rgba(var(--border), 0.9), transparent);
+  }
+
+  .grid-overlay {
+    background-image: theme("backgroundImage.page-grid");
+    background-size: 48px 48px;
+  }
+}

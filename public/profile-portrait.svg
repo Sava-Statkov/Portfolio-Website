@@ -1,0 +1,78 @@
+<svg width="720" height="900" viewBox="0 0 720 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="900" rx="48" fill="#07111F"/>
+  <rect width="720" height="900" rx="48" fill="url(#bg)"/>
+  <circle cx="580" cy="108" r="164" fill="url(#halo)" fill-opacity="0.72"/>
+  <circle cx="148" cy="760" r="196" fill="#1D4ED8" fill-opacity="0.18"/>
+  <g opacity="0.56">
+    <path d="M68 168H652" stroke="url(#line)" stroke-width="1.2"/>
+    <path d="M68 232H652" stroke="url(#line)" stroke-width="1.2"/>
+    <path d="M68 296H652" stroke="url(#line)" stroke-width="1.2"/>
+    <path d="M68 360H652" stroke="url(#line)" stroke-width="1.2"/>
+    <path d="M68 424H652" stroke="url(#line)" stroke-width="1.2"/>
+    <path d="M68 488H652" stroke="url(#line)" stroke-width="1.2"/>
+    <path d="M68 552H652" stroke="url(#line)" stroke-width="1.2"/>
+    <path d="M68 616H652" stroke="url(#line)" stroke-width="1.2"/>
+    <path d="M68 680H652" stroke="url(#line)" stroke-width="1.2"/>
+    <path d="M68 744H652" stroke="url(#line)" stroke-width="1.2"/>
+  </g>
+  <rect x="84" y="84" width="180" height="94" rx="28" fill="#080F1E" fill-opacity="0.44"/>
+  <rect x="84" y="84" width="180" height="94" rx="28" stroke="#94A3B8" stroke-opacity="0.28"/>
+  <text x="116" y="124" fill="#BFDBFE" font-size="18" font-family="Arial, Helvetica, sans-serif" letter-spacing="2.8">AI SYSTEMS</text>
+  <text x="116" y="152" fill="#E2E8F0" font-size="24" font-family="Arial, Helvetica, sans-serif">Research + Engineering</text>
+  <g filter="url(#shadow)">
+    <rect x="118" y="188" width="484" height="604" rx="40" fill="#09152A" fill-opacity="0.9"/>
+    <rect x="118.75" y="188.75" width="482.5" height="602.5" rx="39.25" stroke="url(#cardBorder)" stroke-width="1.5"/>
+  </g>
+  <circle cx="360" cy="372" r="100" fill="#D7E6FF"/>
+  <path d="M360 492C276.44 492 209 559.44 209 643V688H511V643C511 559.44 443.56 492 360 492Z" fill="#D7E6FF"/>
+  <path d="M360 466C400.869 466 434 432.869 434 392C434 351.131 400.869 318 360 318C319.131 318 286 351.131 286 392C286 432.869 319.131 466 360 466Z" fill="#7C8FB5"/>
+  <rect x="168" y="722" width="384" height="28" rx="14" fill="#BFDBFE" fill-opacity="0.16"/>
+  <rect x="168" y="722" width="276" height="28" rx="14" fill="url(#progress)"/>
+  <rect x="448" y="280" width="110" height="126" rx="24" fill="#0F172A" fill-opacity="0.68"/>
+  <rect x="466" y="310" width="72" height="14" rx="7" fill="#38BDF8"/>
+  <rect x="466" y="338" width="60" height="10" rx="5" fill="#94A3B8" fill-opacity="0.72"/>
+  <rect x="466" y="358" width="76" height="10" rx="5" fill="#94A3B8" fill-opacity="0.5"/>
+  <rect x="466" y="382" width="44" height="44" rx="14" fill="url(#mini)"/>
+  <rect x="160" y="272" width="138" height="86" rx="22" fill="#0F172A" fill-opacity="0.7"/>
+  <text x="184" y="312" fill="#E2E8F0" font-size="34" font-family="Arial, Helvetica, sans-serif">SS</text>
+  <text x="184" y="338" fill="#94A3B8" font-size="15" font-family="Arial, Helvetica, sans-serif" letter-spacing="1.2">scalable intelligence</text>
+  <defs>
+    <linearGradient id="bg" x1="92" y1="44" x2="674" y2="852" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A172B"/>
+      <stop offset="0.48" stop-color="#07111F"/>
+      <stop offset="1" stop-color="#0F1D38"/>
+    </linearGradient>
+    <linearGradient id="line" x1="68" y1="168" x2="652" y2="168" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#475569" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#0F172A" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="progress" x1="168" y1="736" x2="444" y2="736" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="mini" x1="466" y1="382" x2="510" y2="426" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="cardBorder" x1="118" y1="188" x2="602" y2="792" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#BFDBFE" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#1E293B" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#818CF8" stop-opacity="0.42"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(580 108) rotate(90) scale(164)">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="86" y="162" width="548" height="668" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="6"/>
+      <feGaussianBlur stdDeviation="16"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0117647 0 0 0 0 0.0392157 0 0 0 0 0.0862745 0 0 0 0.28 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+    </filter>
+  </defs>
+</svg>
