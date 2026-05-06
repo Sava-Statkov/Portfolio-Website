@@ -237,7 +237,7 @@ export const achievements: Achievement[] = [
     value: 5.75,
     suffix: "/6.0",
     decimals: 2,
-    detail: "Major in Mathematics and Informatics, alongside advanced English and Russian studies that strengthen communication and analytical writing skills.",
+    detail: "Major in Mathematics and Informatics, alongside English studies that strengthen communication and writing skills.",
     icon: "graduation"
   },
   {
