@@ -30,7 +30,7 @@ export const about = {
     "Over the past several years, I have focused on hands-on learning through independent projects, research internships, and engineering work. I previously worked as a research intern at GATE Institute, where I explored EEG signal processing and computer vision systems for digital healthcare applications.",
     "Currently integrating a collaborative robot and computer vision system into a optical manufacturing workflow at Nick2000, focusing on automation pipelines and vision-based inspection systems for manufacturing precision.",
     "Alongside engineering work, I participate in conferences, scientific competitions, and independent research projects, with a strong interest in practical implementation and interdisciplinary collaboration.",
-    "Long term, I hope to contribute to meaningful engineering and research projects that combine intelligent systems, real-world interaction, and measurable impact."
+    "Long term, I hope to contribute to meaningful engineering and research projects that combine intelligent systems and measurable impact."
   ],
   principles: [
     {
@@ -83,7 +83,7 @@ export const hobbies: Hobby[] = [
     icon: "sports",
     title: "Sports",
     description:
-      "I enjoy staying active through hockey, swimming, and gym training. Sports have helped me develop discipline, competitiveness, and consistency over time."
+      "I enjoy staying active through hockey, swimming, and gym training. Sports have helped me develop consistency over time."
   },
   {
     icon: "interests",
