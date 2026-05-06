@@ -14,8 +14,8 @@ export function ExperienceSection() {
         <Reveal>
           <SectionHeading
             eyebrow="Experience"
-            title="A timeline shaped by platform depth, research curiosity, and product accountability."
-            description="I like roles where technical rigor meets real usage. The common thread has been building dependable systems around data-heavy and model-heavy workflows."
+            title="Applied engineering across software, robotics, and intelligent systems."
+            description="From EEG signal processing to robotics and computer vision, the focus has consistently been on building reliable systems with practical applications."
           />
         </Reveal>
 

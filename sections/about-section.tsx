@@ -9,7 +9,7 @@ export function AboutSection() {
     <section id="about" className="scroll-mt-32 px-4 pt-23 pb-24 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl">
         <Reveal>
-          <SectionHeading eyebrow="About" title="Building intelligent systems that interact with the real world." />
+          <SectionHeading eyebrow="About" title="Building software and automation systems for real-world engineering applications." />
         </Reveal>
 
         <div className="mt-14">

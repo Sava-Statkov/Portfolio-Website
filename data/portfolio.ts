@@ -83,13 +83,13 @@ export const hobbies: Hobby[] = [
     icon: "sports",
     title: "Sports",
     description:
-      "I mostly stay active through hockey and swimming. Sports have helped me develop discipline, competitiveness and consistency over time."
+      "I enjoy staying active through hockey, swimming, and gym training. Sports have helped me develop discipline, competitiveness, and consistency over time."
   },
   {
     icon: "interests",
     title: "Personal Interests",
     description:
-      "I enjoy strategic challenges such as chess and competitive strategy games. I also spend time experimenting with electronics and exploring emerging technologies."
+      "I enjoy strategic challenges such competitive strategy games. I also spend time experimenting with electronics and exploring emerging technologies."
   }
 ];
 
@@ -234,7 +234,7 @@ export const achievements: Achievement[] = [
   },
   {
     label: "High School Grade",
-    value: 5.78,
+    value: 5.75,
     suffix: "/6.0",
     decimals: 2,
     detail: "Major in Mathematics and Informatics, alongside advanced English and Russian studies that strengthen communication and analytical writing skills.",
