@@ -15,7 +15,6 @@ export function ExperienceSection() {
           <SectionHeading
             eyebrow="Experience"
             title="Applied engineering across software, robotics, and intelligent systems."
-            description="From EEG signal processing to robotics and computer vision, the focus has consistently been on building reliable systems with practical applications."
           />
         </Reveal>
 

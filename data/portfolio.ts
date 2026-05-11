@@ -120,7 +120,7 @@ export const projects: Project[] = [
   {
     title: "Vision-Based Inspection System",
     description:
-      "A precision computer vision system for automated optical inspection and facet measurement using OpenCV pipelines, edge detection, and morphological analysis to validate dimensional tolerances and provide real-time measurement feedback for robotic manufacturing workflows.",
+      "A precision computer vision system for automated optical element inspection and facet measurement using OpenCV pipelines, edge detection, and morphological analysis to validate dimensional tolerances and provide real-time measurement feedback for robotic manufacturing workflows.",
     image: "/projects/ComputerVision.png",
     stack: ["Canny Edge Detection", "Morphological Closing", "Gaussian Filtering", "Metric Calibration"],
     label: "COMPUTER VISION"
