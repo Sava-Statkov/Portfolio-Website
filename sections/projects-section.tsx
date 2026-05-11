@@ -50,7 +50,7 @@ export function ProjectsSection() {
                 </div>
 
                 <h3 className="mt-5 text-2xl font-semibold tracking-tight text-foreground">{project.title}</h3>
-                <p className="mt-4 flex-1 text-base leading-7 text-slate-600 dark:text-slate-300">
+                <p className="mt-4 flex-1 text-justify text-base leading-7 text-slate-600 dark:text-slate-300">
                   {project.description}
                 </p>
 
