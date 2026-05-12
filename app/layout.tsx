@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   },
   description:
     "Premium portfolio for an AI researcher and software engineer focused on machine learning systems, product engineering, and intelligent automation.",
+  icons: {
+    icon: "/favicon.png"
+  },
   keywords: [
     "AI researcher",
     "software engineer",
