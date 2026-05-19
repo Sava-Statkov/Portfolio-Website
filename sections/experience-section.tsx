@@ -18,24 +18,20 @@ type ExperienceLogoProps = {
 function ExperienceLogo({ src, alt, fallback }: ExperienceLogoProps) {
   const [hasError, setHasError] = useState(false);
 
+  if (hasError) {
+    return <span className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500 dark:text-slate-300">{fallback}</span>;
+  }
+
   return (
-    <div className="flex h-[3.3rem] w-[3.3rem] shrink-0 items-center justify-center overflow-hidden rounded-xl border border-border/70 bg-card/70 sm:h-[3.85rem] sm:w-[3.85rem]">
-      {hasError ? (
-        <span className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500 dark:text-slate-300">
-          {fallback}
-        </span>
-      ) : (
-        <Image
-          src={src}
-          alt={alt}
-          width={62}
-          height={62}
-          sizes="62px"
-          className="h-full w-full object-contain p-2"
-          onError={() => setHasError(true)}
-        />
-      )}
-    </div>
+    <Image
+      src={src}
+      alt={alt}
+      width={68}
+      height={68}
+      sizes="68px"
+      className="h-[3.63rem] w-[3.63rem] shrink-0 object-contain sm:h-[4.24rem] sm:w-[4.24rem]"
+      onError={() => setHasError(true)}
+    />
   );
 }
 
@@ -82,7 +78,7 @@ export function ExperienceSection() {
                           <h3 className="mt-3 text-2xl font-semibold tracking-tight text-foreground">{item.role}</h3>
                         </div>
                       </div>
-                      <p className="mt-3 max-w-2xl text-base leading-7 text-slate-600 dark:text-slate-300">
+                      <p className="mt-8 max-w-2xl text-base leading-7 text-slate-600 dark:text-slate-300">
                         {item.summary}
                       </p>
                     </div>
