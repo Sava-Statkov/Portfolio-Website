@@ -43,7 +43,7 @@ export function PublicationsSection() {
                   />
                 </div>
 
-                <div className="p-6 sm:p-8">
+                <div className="px-6 pt-6 pb-6 sm:px-8 sm:pt-8 sm:pb-6">
                   <div className="flex flex-wrap gap-3">
                     <span className="rounded-full border border-sky-500/20 bg-sky-500/10 px-3 py-1 text-xs font-medium uppercase tracking-[0.18em] text-sky-700 dark:text-sky-200">
                       {publication.status}

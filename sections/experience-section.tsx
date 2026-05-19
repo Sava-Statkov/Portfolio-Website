@@ -1,11 +1,43 @@
 "use client";
 
+import Image from "next/image";
+import { useState } from "react";
 import { motion } from "framer-motion";
 
 import { Reveal } from "@/components/shared/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { experience } from "@/data/portfolio";
 import { premiumEase } from "@/lib/motion";
+
+type ExperienceLogoProps = {
+  src: string;
+  alt: string;
+  fallback: string;
+};
+
+function ExperienceLogo({ src, alt, fallback }: ExperienceLogoProps) {
+  const [hasError, setHasError] = useState(false);
+
+  return (
+    <div className="flex h-[3.3rem] w-[3.3rem] shrink-0 items-center justify-center overflow-hidden rounded-xl border border-border/70 bg-card/70 sm:h-[3.85rem] sm:w-[3.85rem]">
+      {hasError ? (
+        <span className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500 dark:text-slate-300">
+          {fallback}
+        </span>
+      ) : (
+        <Image
+          src={src}
+          alt={alt}
+          width={62}
+          height={62}
+          sizes="62px"
+          className="h-full w-full object-contain p-2"
+          onError={() => setHasError(true)}
+        />
+      )}
+    </div>
+  );
+}
 
 export function ExperienceSection() {
   return (
@@ -40,11 +72,16 @@ export function ExperienceSection() {
                 <div className="absolute left-[9px] top-8 h-3.5 w-3.5 rounded-full border border-sky-300 bg-sky-500 shadow-[0_0_0_8px_rgba(59,130,246,0.12)] md:left-[22px]" />
                 <div className="surface-card rounded-[0.95rem] p-6 sm:p-7">
                   <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
-                    <div>
-                      <p className="text-sm font-medium uppercase tracking-[0.22em] text-slate-500 dark:text-slate-400">
-                        {item.company}
-                      </p>
-                      <h3 className="mt-3 text-2xl font-semibold tracking-tight text-foreground">{item.role}</h3>
+                    <div className="min-w-0 flex-1">
+                      <div className="flex items-start gap-4">
+                        <ExperienceLogo src={item.logo} alt={`${item.company} logo`} fallback={item.logoFallback} />
+                        <div className="min-w-0">
+                          <p className="text-sm font-medium uppercase tracking-[0.22em] text-slate-500 dark:text-slate-400">
+                            {item.company}
+                          </p>
+                          <h3 className="mt-3 text-2xl font-semibold tracking-tight text-foreground">{item.role}</h3>
+                        </div>
+                      </div>
                       <p className="mt-3 max-w-2xl text-base leading-7 text-slate-600 dark:text-slate-300">
                         {item.summary}
                       </p>

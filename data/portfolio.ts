@@ -140,11 +140,11 @@ export type Publication = {
 export const publications: Publication[] = [
   {
     status: "PENDING",
-    venue: "IEEE CONFERENCE",
+    venue: "Technical University Proceedings 2026",
     title: "International Conference on Automatics, Robotics and AI (ICARAI)",
     authors: "Sava Statkov, Simeon Stamboliyski, Georgi Hristov",
     abstract:
-      "Vision-Guided Rotational Inspection for Facet Width Evaluation in Robotic Processing of Optical Elements",
+      "Vision-Guided Rotational Inspection for Facet Width Evaluation in Robotic Processing of Optical Elements” has been accepted for publication in the Proceedings of the Technical University of Sofia. The work presents an integrated robotic system for automated optical element processing.",
     image: "/publications/icarai.png",
     paper: "https://icarai.tu-sofia.bg/?p=home"
   },
@@ -171,6 +171,8 @@ export const publications: Publication[] = [
 ];
 
 export type ExperienceItem = {
+  logo: string;
+  logoFallback: string;
   role: string;
   company: string;
   duration: string;
@@ -181,6 +183,8 @@ export type ExperienceItem = {
 
 export const experience: ExperienceItem[] = [
   {
+    logo: "/experience-logos/nick.png",
+    logoFallback: "N",
     role: "Automation & Robotics Engineer",
     company: "NICK 2000",
     duration: "Dec 2025 - Present",
@@ -192,6 +196,8 @@ export const experience: ExperienceItem[] = [
     technologies: ["FR Lua", "Digital I/O Integration", "Force/Torque Control", "PTP & LIN Motions", "Modbus TCP/RTU", "Modular Script Architecture"]
   },
   {
+    logo: "/experience-logos/gate.png",
+    logoFallback: "G",
     role: "Research Intern",
     company: "GATE Institute",
     duration: "Jun 2025 - May 2026",
@@ -203,6 +209,8 @@ export const experience: ExperienceItem[] = [
     technologies: ["Python (NumPy, SciPy, Matplotlib)", "MATLAB", "FFT & PSD", "ICA/PCA", "Signal Filtering Techniques", "OpenCV", "Large Datasets"]
   },
   {
+    logo: "/experience-logos/school.png",
+    logoFallback: "TJ",
     role: "App Developer (Volunteering)",
     company: "Second English Language School \"Thomas Jefferson\"",
     duration: "Feb 2026 - May 2026",
