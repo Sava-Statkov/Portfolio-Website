@@ -87,14 +87,16 @@ export function ExperienceSection() {
                     </span>
                   </div>
 
-                  <div className="mt-7 space-y-3">
-                    {item.achievements.map((achievement) => (
-                      <div key={achievement} className="flex gap-3 text-base leading-7 text-slate-600 dark:text-slate-300">
-                        <span className="mt-2 h-1.5 w-1.5 rounded-full bg-sky-500" />
-                        <p>{achievement}</p>
-                      </div>
-                    ))}
-                  </div>
+                  {item.achievements.length > 0 ? (
+                    <div className="mt-7 space-y-3">
+                      {item.achievements.map((achievement) => (
+                        <div key={achievement} className="flex gap-3 text-base leading-7 text-slate-600 dark:text-slate-300">
+                          <span className="mt-2 h-1.5 w-1.5 rounded-full bg-sky-500" />
+                          <p>{achievement}</p>
+                        </div>
+                      ))}
+                    </div>
+                  ) : null}
 
                   <div className="mt-7 flex flex-wrap gap-2">
                     {item.technologies.map((technology) => (

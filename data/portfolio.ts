@@ -215,9 +215,7 @@ export const experience: ExperienceItem[] = [
     company: "Language School \"Thomas Jefferson\"",
     duration: "Feb 2026 - May 2026",
     summary: "Developed an interactive kiosk application for touchscreen monitors to manage institutional schedules, announcements, and achievements.",
-    achievements: [
-      "Developed an interactive kiosk application for a touchscreen monitor to manage schedules, institutional announcements, and achievements."
-    ],
+    achievements: [],
     technologies: ["React", "TypeScript", "Touchscreen UI", "JavaScript", "Web Development", "Responsive Design", "Firebase (Database)"]
   }
 ];
