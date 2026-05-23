@@ -216,7 +216,7 @@ export const experience: ExperienceItem[] = [
     duration: "Feb 2026 - May 2026",
     summary: "Developed an interactive kiosk application for touchscreen monitors to manage institutional schedules, announcements, and achievements.",
     achievements: [],
-    technologies: ["React", "TypeScript", "Touchscreen UI", "JavaScript", "Web Development", "Responsive Design", "Firebase (Database)"]
+    technologies: ["React", "TypeScript", "Touchscreen UI", "JavaScript", "Web Development", "Firebase", "Responsive Design"]
   }
 ];
 
