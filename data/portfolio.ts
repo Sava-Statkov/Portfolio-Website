@@ -185,7 +185,7 @@ export const experience: ExperienceItem[] = [
   {
     logo: "/experience-logos/nick.png",
     logoFallback: "N",
-    role: "Automation & Robotics Engineer",
+    role: "Automation & Robotics",
     company: "NICK 2000",
     duration: "Dec 2025 - Present",
     summary: "Designing and integrating a collaborative robot system to automate precision faceting of optical elements with computer vision inspection.",
@@ -200,7 +200,7 @@ export const experience: ExperienceItem[] = [
     logoFallback: "G",
     role: "Research Intern",
     company: "GATE Institute",
-    duration: "Jun 2025 - May 2026",
+    duration: "Jun 2025 - Jun 2026",
     summary: "Research on EEG processing and computer vision for digital healthcare applications.",
     achievements: [
       "Conducted research on EEG Signal Processing for evaluation of the resting state and Computer Vision for patient monitoring.",
