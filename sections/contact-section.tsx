@@ -19,7 +19,7 @@ export function ContactSection() {
                 <p className="text-sm font-medium uppercase tracking-[0.24em] text-sky-600 dark:text-sky-300">
                   Contact
                 </p>
-                <h2 className="mt-5 max-w-3xl text-balance text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl dark:text-white">
+                <h2 className="mt-5 max-w-3xl text-balance text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl dark:text-white">
                   Building thoughtful systems and looking for a developer?
                 </h2>
                 <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600 dark:text-slate-300">
