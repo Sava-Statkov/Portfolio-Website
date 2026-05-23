@@ -23,8 +23,7 @@ export function ContactSection() {
                   Building thoughtful systems and looking for a developer?
                 </h2>
                 <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600 dark:text-slate-300">
-                  <br/>I am open to collaborations, engineering roles, and product work where reliability and
-                  technical taste matter most.
+                  <br/>I am open to collaborations and engineering roles.
                 </p>
 
                 <div className="mt-8 flex flex-wrap gap-4">

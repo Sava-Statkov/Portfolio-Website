@@ -193,7 +193,7 @@ export const experience: ExperienceItem[] = [
       "Designing and integrating a collaborative robot system to automate the precision faceting of optical elements.",
       "Developing a computer vision inspection system using calibrated cameras to detect micro defects and verify geometric measurements."
     ],
-    technologies: ["FR Lua", "Digital I/O Integration", "Force/Torque Control", "PTP & LIN Motions", "Modbus TCP/RTU", "Modular Script Architecture"]
+    technologies: ["FR Lua", "Digital I/O Integration", "Force/Torque Control", "TCP", "PTP & LIN Motions", "Modbus RTU", "Modular Script Architecture"]
   },
   {
     logo: "/experience-logos/gate.png",
@@ -206,7 +206,7 @@ export const experience: ExperienceItem[] = [
       "Conducted research on EEG Signal Processing for evaluation of the resting state and Computer Vision for patient monitoring.",
       "Developed algorithms for anomaly detection, specifically focusing on fall detection and rapid movement analysis in clinical environments."
     ],
-    technologies: ["Python (NumPy, SciPy, Matplotlib)", "MATLAB", "FFT & PSD", "ICA/PCA", "Signal Filtering Techniques", "OpenCV", "Large Datasets"]
+    technologies: ["Python (NumPy, SciPy, Matplotlib)", "MATLAB", "FFT & PSD", "ICA/PCA", "Signal Filtering Methods", "OpenCV", "Large Datasets"]
   },
   {
     logo: "/experience-logos/school.png",
