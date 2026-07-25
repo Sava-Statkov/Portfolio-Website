@@ -22,8 +22,8 @@ export function ContactSection() {
                 <h2 className="mt-5 max-w-3xl text-balance text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl dark:text-white">
                   Building thoughtful systems and looking for a developer?
                 </h2>
-                <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600 dark:text-slate-300">
-                  <br/>I am open to collaborations and engineering roles.
+                <p className="mt-3 max-w-2xl text-lg leading-8 text-slate-600 dark:text-slate-300">
+                  I am open to collaborations and engineering roles.
                 </p>
 
                 <div className="mt-8 flex flex-wrap gap-4">

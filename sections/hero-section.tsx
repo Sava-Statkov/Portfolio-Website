@@ -36,10 +36,9 @@ export function HeroSection() {
               Software Engineer & Researcher
             </p>
             <p className="max-w-2xl text-justify text-lg leading-8 text-slate-600 dark:text-slate-300">
-              <br />I am an incoming Computer Science student with interests in robotics,
-               computer vision, intelligent automation, and digital healthcare systems. What interests me most is building software that 
-               operates beyond purely digital environments - systems that interact with real processes, physical devices, and human-centered
-                applications. I&apos;ve worked on automation workflows, signal analysis tools, and computer vision applications.
+              <br />I am an incoming B.Sc. Computer Science student at New Bulgarian University with interests in robotics,
+               computer vision, automation, and digital healthcare systems. What interests me most is building software that 
+               operates beyond purely digital environments - systems that interact with physical devices. I&apos;ve worked on automation workflows, signal analysis tools, and computer vision applications.
             </p>
           </motion.div>
 
@@ -85,7 +84,7 @@ export function HeroSection() {
           initial={{ opacity: 0, y: 32 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.18, ease: premiumEase }}
-          className="relative mx-auto w-full max-w-[28.8rem]"
+          className="relative mx-auto w-full max-w-[26.5rem]"
         >
           <Image
             src={heroImage}

@@ -170,6 +170,13 @@ export const publications: Publication[] = [
   }
 ];
 
+export type ExperienceRole = {
+  role: string;
+  duration: string;
+  current?: boolean;
+  achievements: string[];
+};
+
 export type ExperienceItem = {
   logo: string;
   logoFallback: string;
@@ -178,6 +185,7 @@ export type ExperienceItem = {
   duration: string;
   summary: string;
   achievements: string[];
+  progression?: ExperienceRole[];
   technologies: string[];
 };
 
@@ -188,23 +196,39 @@ export const experience: ExperienceItem[] = [
     role: "Automation & Robotics",
     company: "NICK 2000",
     duration: "Dec 2025 - Present",
-    summary: "Designing and integrating a collaborative robot system to automate precision faceting of optical elements with computer vision inspection.",
+    summary: "Developing automation and computer vision solutions to improve precision, repeatability, and process reliability in optical manufacturing.",
     achievements: [
-      "Designing and integrating a collaborative robot system to automate the precision faceting of optical elements.",
-      "Developing a computer vision inspection system using calibrated cameras to detect micro defects and verify geometric measurements."
+      "Designed and integrated a collaborative robotic system to automate the precision faceting of optical elements using structured motion planning and industrial robot programming.",
+      "Developed a computer vision inspection system using a calibrated camera to detect micro defects and verify geometric measurements."
     ],
     technologies: ["FR Lua", "Digital I/O Integration", "Force/Torque Control", "TCP", "PTP & LIN Motions", "Modbus RTU", "Modular Script Architecture"]
   },
   {
     logo: "/experience-logos/gate.png",
     logoFallback: "G",
-    role: "Research Intern",
+    role: "Research Assistant",
     company: "GATE Institute",
-    duration: "Jun 2025 - Jun 2026",
-    summary: "Research on EEG processing and computer vision for digital healthcare applications.",
-    achievements: [
-      "Conducted research on EEG Signal Processing for evaluation of the resting state and Computer Vision for patient monitoring.",
-      "Developed algorithms for anomaly detection, specifically focusing on fall detection and rapid movement analysis in clinical environments."
+    duration: "Jul 2025 - Present",
+    summary: "Research on computer vision and biomedical signal processing for digital healthcare applications.",
+    achievements: [],
+    progression: [
+      {
+        role: "Research Assistant",
+        duration: "Jul 2026 - Present",
+        current: true,
+        achievements: [
+          "Continuing applied research in computer vision and biomedical signal processing, with a focus on practical algorithms for healthcare-oriented analysis.",
+          "Developing image processing methods and software tools that support experimental workflows and ongoing research projects."
+        ]
+      },
+      {
+        role: "Research Intern",
+        duration: "Jul 2025 - Jun 2026",
+        achievements: [
+          "Processed EEG and medical datasets using signal preprocessing, filtering, and analysis techniques for digital healthcare research.",
+          "Explored computer vision methods for patient monitoring, including fall detection and rapid movement analysis in clinical environments."
+        ]
+      }
     ],
     technologies: ["Python (NumPy, SciPy, Matplotlib)", "MATLAB", "FFT & PSD", "ICA/PCA", "Signal Filtering Methods", "OpenCV", "Large Datasets"]
   },

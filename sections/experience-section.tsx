@@ -75,12 +75,51 @@ export function ExperienceSection() {
                           <p className="text-sm font-medium uppercase tracking-[0.22em] text-slate-500 dark:text-slate-400">
                             {item.company}
                           </p>
-                          <h3 className="mt-3 text-2xl font-semibold tracking-tight text-foreground">{item.role}</h3>
+                          {item.progression ? null : (
+                            <h3 className="mt-3 text-2xl font-semibold tracking-tight text-foreground">{item.role}</h3>
+                          )}
                         </div>
                       </div>
-                      <p className="mt-8 max-w-2xl text-base leading-7 text-slate-600 dark:text-slate-300">
-                        {item.summary}
-                      </p>
+                      {item.progression ? (
+                        <div className="relative mt-8 space-y-8 pl-8">
+                          <div className="absolute left-[5px] top-3 h-[calc(100%-1.5rem)] w-px bg-border/80 dark:bg-slate-700" />
+                          {item.progression.map((role) => (
+                            <div key={`${item.company}-${role.role}`} className="relative">
+                              <span
+                                className={
+                                  role.current
+                                    ? "absolute -left-8 top-2 h-3 w-3 rounded-full border border-slate-400 bg-slate-500 dark:border-slate-500 dark:bg-slate-300"
+                                    : "absolute -left-8 top-2 h-3 w-3 rounded-full border border-slate-400 bg-card dark:border-slate-500 dark:bg-slate-950"
+                                }
+                              />
+                              <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                                <h3 className="text-2xl font-semibold tracking-tight text-foreground">
+                                  {role.role}
+                                </h3>
+                                <span className="text-sm font-medium text-slate-500 dark:text-slate-400">
+                                  {role.duration}
+                                </span>
+                              </div>
+
+                              <div className="mt-4 space-y-2.5">
+                                {role.achievements.map((achievement) => (
+                                  <div
+                                    key={achievement}
+                                    className="flex gap-3 text-base leading-7 text-slate-600 dark:text-slate-300"
+                                  >
+                                    <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-sky-500" />
+                                    <p>{achievement}</p>
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      ) : (
+                        <p className="mt-8 max-w-2xl text-base leading-7 text-slate-600 dark:text-slate-300">
+                          {item.summary}
+                        </p>
+                      )}
                     </div>
                     <span className="rounded-full border border-border/70 bg-card/70 px-4 py-2 text-sm font-medium text-slate-600 dark:text-slate-300">
                       {item.duration}
