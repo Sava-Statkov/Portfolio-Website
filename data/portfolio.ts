@@ -72,7 +72,7 @@ export const hobbies: Hobby[] = [
     icon: "music",
     title: "Music",
     description:
-      "I have played the piano since i was 7 and enjoy both classical and modern music. Playing piano has taught me patience and long-term consistency outside work.",
+      "I have played the piano since i was 7 and enjoy both classical and modern music.",
     audioLabel: "Listen to piano recording",
     audioSrc: "/piano-recording.mp3",
     composer: "Claude Debussy",
@@ -263,7 +263,7 @@ export const achievements: Achievement[] = [
   },
   {
     label: "High School Grade",
-    value: 5.75,
+    value: 5.8,
     suffix: "/6.0",
     decimals: 2,
     detail: "Major in Mathematics and Informatics, alongside English studies that strengthen communication and writing skills.",
@@ -278,7 +278,7 @@ export const achievements: Achievement[] = [
   },
   {
     label: "Project contributions",
-    value: 8,
+    value: 9,
     suffix: "+",
     detail: "Projects spanning computer vision, EEG analysis, robotics, embedded systems, automation, and full-stack software engineering.",
     icon: "github"
