@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowRight, Download, Github, Linkedin, Mail, MapPin } from "lucide-react";
 
-import heroImage from "../image.jpg";
+import heroImage from "../image.png";
 import { SocialLink } from "@/components/ui/social-link";
 import { profile } from "@/data/portfolio";
 import { premiumEase } from "@/lib/motion";
